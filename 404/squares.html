@@ -27,6 +27,11 @@ body {
 	width: 10%;
 	height: 0;
 	padding-bottom: 10%;
+	z-index: 1;
+}
+
+.center-square a {
+	display: block;;
 }
 
 .center-square svg {
@@ -46,7 +51,7 @@ body {
 	background: none;
 
 	animation-name: pulse;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: ease-out;
   animation-delay: 0s;
   animation-iteration-count: infinite;
@@ -60,9 +65,9 @@ body {
 	padding-bottom: 30%;
 
 	animation-name: pulse;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: ease-out;
-  animation-delay: 1s;
+  animation-delay: 0.5s;
   animation-iteration-count: infinite;
   animation-play-state: running;
 }
@@ -74,9 +79,9 @@ body {
 	padding-bottom: 50%;
 
 	animation-name: pulse;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: ease-out;
-  animation-delay: 1.5s;
+  animation-delay: 1s;
   animation-iteration-count: infinite;
   animation-play-state: running;
 }
@@ -88,9 +93,9 @@ body {
 	padding-bottom: 70%;
 
 	animation-name: pulse;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: ease-out;
-  animation-delay: 2s;
+  animation-delay: 1.5s;
   animation-iteration-count: infinite;
   animation-play-state: running;
 }
@@ -102,9 +107,9 @@ body {
 	padding-bottom: 90%;
 
 	animation-name: pulse;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: ease-out;
-  animation-delay: 2.5s;
+  animation-delay: 2s;
   animation-iteration-count: infinite;
   animation-play-state: running;
 }
@@ -129,10 +134,12 @@ body {
 	<div class="page">
 
 		<div class="center-square">
-			<svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
-				<path fill="#FF4D00" d="M0 0h50v50H0z"/>
-				<path d="M21.602 41.344c-.543.002-1.954.062-2.696.062H11.72l1.4-13.906h7.267c.742 0 1.41-.602 1.482-1.34l1.767-17.566 13.375.001-1.867 18.924a18.96 18.96 0 0 1-.494 2.636s-1.495 11.12-13.05 11.189" fill="#FFF"/>
-			</svg>
+			<a href="https://jalopnik.com">
+				<svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+					<path fill="#FF4D00" d="M0 0h50v50H0z"/>
+					<path d="M21.602 41.344c-.543.002-1.954.062-2.696.062H11.72l1.4-13.906h7.267c.742 0 1.41-.602 1.482-1.34l1.767-17.566 13.375.001-1.867 18.924a18.96 18.96 0 0 1-.494 2.636s-1.495 11.12-13.05 11.189" fill="#FFF"/>
+				</svg>
+			</a>
 		</div>
 		<div class="square square-1"></div>
 		<div class="square square-2"></div>
