@@ -20,6 +20,9 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	background-image: url('glitch1.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .center-square {
@@ -102,67 +105,12 @@ body {
 	}
 }
 
-.box {
-	position: absolute;;
-	height: 40%;
-	z-index: 1;
-	display: flex;
-	justify-content: space-between;
-
-	animation-name: pulse;
-	animation-timing-function: ease-out;
-	animation-iteration-count: infinite;
-	animation-play-state: running;
-	animation-duration: 8s;
-	animation-delay: 0;
-}
-
-.box--left {
-	left: 20vw;
-}
-
-.box--right {
-	right: 20vw;
-}
-
-.line {
-	width: 5vw;
-	height: 100%;
-	background-color: black;
-}
-
-.line--1 {
-	height: 30vh;
-}
-
-.line--2 {
-	height: 10vh;
-	margin-top: 20vh;
-}
-
-.line--3 {
-	height: 30vh;
-	align-self: flex-end;
-}
-
 	</style>
 
 </head>
 <body>
 
 	<div class="page">
-
-		<div class="box box--left">
-			<div class="line line--1"></div>
-			<div class="line line--2"></div>
-			<div class="line line--3"></div>
-		</div>
-
-		<div class="box box--right">
-			<div class="line line--1"></div>
-			<div class="line line--2"></div>
-			<div class="line line--3"></div>
-		</div>
 
 		<div class="center-square">
 			<a href="https://jalopnik.com">
